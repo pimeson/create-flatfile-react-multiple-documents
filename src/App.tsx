@@ -11,8 +11,12 @@ export default function App() {
     environmentId: "YOUR_ENVIRONMENT_ID",
     workbook,
     listener,
+    document: {
+      title: 'I render multiple times when opening and closing the modal',
+      body: 'I render multiple times',
+    },
     sidebarConfig: {
-      showSidebar: false,
+      showSidebar: true,
     },
     themeConfig: {
       root: {
